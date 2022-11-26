@@ -1,0 +1,40 @@
+/*
+ * reset by marcexl
+ * version 26112022
+ * for servicios juridicos
+ *
+ * @all right reserved by marcexl.com.ar 2023
+ *
+ */
+ 
+ .whatsapp-icon{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 4rem;
+    height: 4rem;
+    z-index: 11111;
+ }
+
+ .whatsapp-icon svg{
+    color: #20c997;
+    width: 4rem;
+    height: 4rem;
+ }
+
+ .whatsapp-icon span{
+   width: 130px;
+   display: block;
+   position: absolute;
+   left: -100px;
+   top: 1rem;
+   color: white;
+   opacity: 0;
+   transition: .3s all;
+ }
+
+ .whatsapp-icon:hover span{
+   opacity: 1;
+   left:-130px;
+ }
+

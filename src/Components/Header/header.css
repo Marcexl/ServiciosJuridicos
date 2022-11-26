@@ -1,0 +1,29 @@
+/*
+ * reset by marcexl
+ * version 26112022
+ * for servicios juridicos
+ *
+ * @all right reserved by marcexl.com.ar 2023
+ *
+ */
+
+ .bg-light{
+    min-height: 100px;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.4);
+   -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.4);
+   -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.4);
+ }
+
+ .navbar-expand-lg .navbar-collapse{
+   flex-direction: row-reverse;
+ }
+
+ .navbar-expand-lg .navbar-nav .nav-link{
+   border-bottom: 2px solid transparent;
+   text-transform: uppercase;
+   margin: 0 5px;
+}
+ 
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+   border-bottom: 2px solid #f5d76e;
+}

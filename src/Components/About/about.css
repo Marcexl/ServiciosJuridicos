@@ -1,0 +1,85 @@
+/*
+ * reset by marcexl
+ * version 26112022
+ * for servicios juridicos
+ *
+ * @all right reserved by marcexl.com.ar 2023
+ *
+ */
+
+.about-container{
+    background-color: #f0f0f0;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 39px;
+    color: #130e14;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.about-team{
+    padding: 60px 0;
+    border-bottom: 1px solid #f5d76e;
+}
+
+.about-team h4{
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #3f3b40;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 39px;
+}
+
+.about-team p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    padding-bottom: 23px;
+    margin-bottom: 0;
+}
+
+.about-expertise{
+    padding: 60px 0;
+}
+
+.about-expertise ul li{
+    color: #4e4a4f;
+    font-size: 15px;
+    line-height: 30px;
+    display: block;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-left: 22px;
+    background-image: url(./devider-serivces.png);
+    background-repeat: no-repeat;
+    background-position: 0 15px;
+}
+
+.about-team h3,
+.about-expertise h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 800;
+    color: #000000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.about-team h3{
+    padding-bottom: 0;
+    padding-left: 30px;
+    border-left: 5px solid #f5d76e;
+    margin-bottom: 30px;
+}

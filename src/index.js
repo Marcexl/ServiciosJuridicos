@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header/Header';
+import Slider from './Components/Slider/Slider';
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
+import WhatsApp from './Components/WhatsApp/WhatsApp';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <>
+    <Header />
+    <Slider />
+    <About />
+    <Contact />
+    <WhatsApp />
+    <Footer />
+    </>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

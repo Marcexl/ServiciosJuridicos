@@ -1,0 +1,99 @@
+/*
+ * reset by marcexl
+ * version 26112022
+ * for servicios juridicos
+ *
+ * @all right reserved by marcexl.com.ar 2023
+ *
+ */
+
+ .carousel{
+    height: calc(100vh - 100px);
+    overflow: hidden;
+ }
+ 
+ .carousel-item-next, 
+ .carousel-item-prev, 
+ .carousel-item.active{
+   height: calc(100vh - 100px);
+ }
+
+ .carousel-caption {
+   right: initial;
+   bottom: initial;
+   top: calc(50% - 150px);
+   text-align: left!important;
+   height: 300px;
+}
+
+.carousel-caption h1{
+   font-size: 3.3rem;
+   font-weight: 900;
+   letter-spacing: 5px;
+   animation: showUp .5s ease-in-out .3s forwards;
+   opacity: 0;
+   position: relative;
+   top: 30px;
+}
+
+.carousel-caption h3{
+   font-size: 2rem;
+   animation: showUp .5s ease-in-out .6s forwards;
+   opacity: 0;
+   position: relative;
+   top: 30px;
+}
+
+.d-block{
+   filter: brightness(0.75);
+}
+
+.btn.slider-but{
+   text-transform: uppercase;
+   width: 200px;
+   height: 60px;
+   margin-top: 30px;
+   background-color: #f5d76e;
+   border-color: #f5d76e;
+   letter-spacing: 2px;
+   animation: showDown .5s ease-in-out .9s forwards;
+   opacity: 0;
+   position: relative;
+   top: -30px;
+}
+
+.btn.slider-but:hover{
+   background-color: #ebca55;
+   border-color: #ebca55;
+}
+
+
+.btn.slider-but svg{
+   padding-right: 6px;
+}
+
+.carousel-indicators [data-bs-target]{
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+}
+
+@keyframes showUp{
+   from{
+      opacity: 0;
+      top: 30px;
+   }to{
+      opacity: 1;
+      top: 0;
+   }
+}
+
+@keyframes showDown{
+   from{
+      opacity: 0;
+      top: -30px;
+   }to{
+      opacity: 1;
+      top: 0;
+   }
+}
