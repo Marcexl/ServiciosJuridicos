@@ -11,9 +11,9 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="#servicios">Servicios</Nav.Link>
-            <Nav.Link href="#nosotros">Nosotros</Nav.Link>
-            <Nav.Link href="#contacto">Contacto</Nav.Link>
+            <Nav.Link href="#about">Nosotros</Nav.Link>
+            <Nav.Link href="#services">Servicios</Nav.Link>
+            <Nav.Link href="#contact">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

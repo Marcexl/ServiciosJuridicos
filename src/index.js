@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import WhatsApp from './Components/WhatsApp/WhatsApp';
 import './index.css';
+import './responsive.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
