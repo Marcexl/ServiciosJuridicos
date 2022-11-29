@@ -88,4 +88,13 @@
    .about-expertise.row{
       padding: 0;
    }
+
+   .navbar-brand img{
+      max-width: 100px;
+   }
+
+   .bg-light{
+      min-height: auto;
+      max-height: initial;
+   }
  }

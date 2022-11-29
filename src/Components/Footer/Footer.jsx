@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Logo from './logo2023white.png';
 
 import './footer.css'; 
 
@@ -12,7 +13,8 @@ function Footer() {
                     <Col md={6} sm={6}>
                         <address>
                             <figure>
-                                <h4>Servicios Juridicos</h4>
+                                    <img src={Logo} alt='logo-white' className='logo-footer'/>
+                    
                             </figure>
                             <p>
                                 Collins Street West Victoria 8007 Australia.<br />
@@ -23,17 +25,17 @@ function Footer() {
                     </Col>
                     <Col md={3} sm={3}>
                         <ul>
-                            <li><a href="#" title="About us">About us</a></li>
-                            <li><a href="#" title="Services">Services</a></li>
-                            <li><a href="#" title="Works">Works</a></li>
-                            <li><a href="#" title="Contact">Contact</a></li>
+                            <li><a href="#about" title="About us">About us</a></li>
+                            <li><a href="#service" title="Services">Services</a></li>
+                            <li><a href="#work" title="Works">Works</a></li>
+                            <li><a href="#contact" title="Contact">Contact</a></li>
                         </ul>
                     </Col>
                     <Col md={3} sm={3}>
                         <ul class="socil-icon-one">
-                            <li><a href="#" title="Facebook">Terms and Conditions</a></li>
-                            <li><a href="#" title="Behance">Prices</a></li>
-                            <li><a href="#" title="Instagram">Privacy</a></li>
+                            <li><a href="#terms" title="Terms">Terms and Conditions</a></li>
+                            <li><a href="#prices" title="Prices">Prices</a></li>
+                            <li><a href="#privacy" title="Privacy">Privacy</a></li>
                         </ul>
                     </Col>
                 

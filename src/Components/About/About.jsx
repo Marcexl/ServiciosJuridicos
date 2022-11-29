@@ -20,7 +20,7 @@ function About() {
       <Container className='about-team'>
         <Row>
           <Col md={8} sm={6}>
-            <h3>Facundo Perotto</h3>
+            <h3>Fabiano Perotto</h3>
             <h4>Maecenas pretium enim ut mollis laoreet. Vestibulum aliquet ut nisi in <br />
               porttitor. Donec luctus ipsum non dui aliquet, ac imperdiet arcu cursus. <br />
               Morbi aliquam aculis ipsum malesuada et.</h4>
@@ -33,34 +33,15 @@ function About() {
               nisi sit amet porta lobortis, purus augue bibendum augue, </p>
           </Col>
           <Col md={4}>
-           <img src={require('./serives-text-img.jpg')} />
+           <img src={require('./serives-text-img.jpg')} alt='Facu Perotto'/>
           </Col>
         </Row>
       </Container>
 
-      <Container className='about-team'>
-        <Row>
-          <Col md={4}>
-           <img src={require('./serives-text-img.jpg')} />
-          </Col>
-          <Col md={8} sm={6}>
-            <h3>Piter Lanzani</h3>
-            <h4>Maecenas pretium enim ut mollis laoreet. Vestibulum aliquet ut nisi in <br />
-              porttitor. Donec luctus ipsum non dui aliquet, ac imperdiet arcu cursus. <br />
-              Morbi aliquam aculis ipsum malesuada et.</h4>
-            <p>Maecenas metus magna, condimentum eu elementum vitae, finibus eu mauris. Suspendisse bibendum 
-              dapibus lacus, eget commodo turpis hendrerit non. Cras euismod, nisi sit amet porta lobortis, 
-              purus augue bibendum augue, ut ornare elit risus ac enim.Aliquam pretium interdum lorem sit 
-              amet aliquam. Pellentesque quis felis orci. Integer fringilla.<br />
-              lorem non tincidunt commodo, eros erat interdum urna, sodales interdum nibh erat eget sapien. 
-              Vestibulum et erat ac eros pellentesque pulvinar. Cras viverra vel sapien et molestie. Cras euismod, 
-              nisi sit amet porta lobortis, purus augue bibendum augue, </p>
-          </Col>
-        </Row>
-      </Container>
+      
       <Container id='services'>
         <Row className="about-expertise">
-          <h3>Area of Expertise</h3>
+          <h3>Áreas de práctica</h3>
         <Col md={3} sm={6}>
           <ul>
             <li>Digital Strategy</li>

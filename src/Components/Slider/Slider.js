@@ -20,7 +20,7 @@ function UncontrolledExample() {
           <h3>Nulla vitae elit libero, a pharetra augue mollis interdum</h3>
           <Button variant="warning slider-but">
             <LocalPhoneIcon />            
-            Llamanos
+            Llámenos
           </Button>
         </Carousel.Caption>
       </Carousel.Item>
@@ -48,13 +48,13 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h1>CHAT DIRECTO CON EXPERTOS</h1>
+          <h1>Asesoría y seguimiento de casos</h1>
           <h3>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur
           </h3>
           <Button variant="warning slider-but">
             <WhatsAppIcon />            
-            Contactanos
+            Whatsapp
           </Button>
         </Carousel.Caption>
       </Carousel.Item>

@@ -1,13 +1,16 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Logo from './logo2023edited.png';
 import './header.css';
 
 function Header() {
   return (
     <Navbar bg="light" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="#home">Servicios Juridicos</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img src={Logo} alt='Logo'/>  
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>

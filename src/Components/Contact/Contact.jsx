@@ -29,13 +29,13 @@ function Contact() {
                     <Col md={6} className='contact-container-form'>
                         <Form noValidate validated={validated} onSubmit={handleSubmit}>
                         
-                        <h5 className='mb-5'>Could you introduce yourself?</h5>
+                        <h5 className='mb-5'>Envianos tus datos para contactarte</h5>
                         
                         <Form.Group as={Col} md="6" controlId="validationCustom01" className='pr-2'>
                             <Form.Control
                                 required
                                 type="text"
-                                placeholder="First name"
+                                placeholder="Nombre"
                                 defaultValue=""
                             />
                         </Form.Group>
@@ -44,7 +44,7 @@ function Contact() {
                             <Form.Control
                                 required
                                 type="text"
-                                placeholder="Company Name"
+                                placeholder="Apellido"
                                 defaultValue=""
                             />
                         </Form.Group>
@@ -68,14 +68,14 @@ function Contact() {
                         </Form.Group>
 
                         <Form.Group as={Col} md="12" controlId="validationCustom05">
-                            <Form.Control as="textarea" aria-label="With textarea" placeholder="Brief Description"/>
+                            <Form.Control as="textarea" aria-label="With textarea" placeholder="Resumen de la consulta"/>
                         </Form.Group>
                         
                         <Button type="submit">Enviar</Button>
                         </Form>
                     </Col>
                     <Col md={6} className='pl-4'>
-                        <h6>Contact Details</h6>
+                        <h6>contactános</h6>
                         <address>
                         Collins Street West Victoria 8007 Australia.<br />
                         1800 1234 56789 / 98532100987<br />
