@@ -17,25 +17,22 @@ function Footer() {
                     
                             </figure>
                             <p>
-                                Collins Street West Victoria 8007 Australia.<br />
-                                1800 1234 56789 / 98532100987 
-                                <a href="mailto:support@websitename.com">support@websitename.com</a>
+                                Matrícula tomo 142 folio 682 CPACF
                             </p>
                         </address>
                     </Col>
                     <Col md={3} sm={3}>
                         <ul>
-                            <li><a href="#about" title="About us">About us</a></li>
-                            <li><a href="#service" title="Services">Services</a></li>
-                            <li><a href="#work" title="Works">Works</a></li>
-                            <li><a href="#contact" title="Contact">Contact</a></li>
+                            <li><a href="#about" title="About us">Nosotros</a></li>
+                            <li><a href="#service" title="Services">Servicios</a></li>
+                            <li><a href="#contact" title="Contact">Contacto</a></li>
                         </ul>
                     </Col>
                     <Col md={3} sm={3}>
                         <ul class="socil-icon-one">
-                            <li><a href="#terms" title="Terms">Terms and Conditions</a></li>
-                            <li><a href="#prices" title="Prices">Prices</a></li>
-                            <li><a href="#privacy" title="Privacy">Privacy</a></li>
+                            <li><a href="#terms" title="Terms">Terminos y condiciones</a></li>
+                            <li><a href="#prices" title="Prices">Modos de Pago</a></li>
+                            <li><a href="#privacy" title="Privacy">Privacidad</a></li>
                         </ul>
                     </Col>
                 

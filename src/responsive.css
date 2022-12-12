@@ -37,11 +37,17 @@
       margin: 0;
       padding: 0 20px;
    }
- 
+   .contact-container-form .col-md-6.pr-2 {
+      padding-right: 0;
+      max-width: 100%;
+      width: 100%;
+  }
+
    .row .col-md-4,
    .row .col-md-8,
    .row .col-md-6{
       padding: 0;
+      width: 100%;
    }
  
    .about-team h3{
@@ -96,5 +102,9 @@
    .bg-light{
       min-height: auto;
       max-height: initial;
+   }
+
+   .card{
+      margin-bottom: 30px;
    }
  }

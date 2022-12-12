@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './contact.css';
 
 function Contact() {
@@ -17,6 +17,10 @@ function Contact() {
       if (form.checkValidity() === false) {
         event.preventDefault();
         event.stopPropagation();
+      }
+      else
+      {
+
       }
   
       setValidated(true);
@@ -77,14 +81,20 @@ function Contact() {
                     <Col md={6} className='pl-4'>
                         <h6>contactános</h6>
                         <address>
-                        Collins Street West Victoria 8007 Australia.<br />
+                        Venezuela 1870. Buenos Aires. Argentina<br />
                         1800 1234 56789 / 98532100987<br />
-                        <a href="mailto:support@websitename.com">support@websitename.com</a>
+                        <a href="mailto:consultas@serviciosjuridicos.ar">consultas@serviciosjuridicos.ar</a>
                         </address>
                         <div className="social_icons">
-                            <FacebookIcon />
-                            <InstagramIcon />
-                            <EmailIcon />
+                            <a href='https://www.linkedin.com/in/fabiano-perotto-22a6511a7/'>
+                                <LinkedInIcon />
+                            </a>
+                            <a href='https://www.instagram.com/fabianoperotto8/'>
+                                <InstagramIcon />
+                            </a>
+                            <a href='https://www.facebook.com/profile.php?id=100007329434870'>
+                                <FacebookIcon />
+                            </a>
                         </div>
                     </Col>
                 </Row>

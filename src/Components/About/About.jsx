@@ -32,7 +32,7 @@ function About() {
               nisi sit amet porta lobortis, purus augue bibendum augue, </p>
           </Col>
           <Col md={4}>
-           <img src={require('./serives-text-img.jpg')} alt='Facu Perotto'/>
+           <img src={require('./fabiano.jpeg')} alt='Fabiano Perotto' class="fabiano"/>
           </Col>
         </Row>
       </Container>
@@ -42,7 +42,7 @@ function About() {
         <Row className="about-expertise">
           <h3>Áreas de práctica</h3>
           <Col md={3} sm={6}>
-            <Card style={{ width: '18rem' }}>
+            <Card >
               <Card.Body>
                 <Card.Title>Derecho Penal</Card.Title>
                 <Card.Text>
@@ -58,7 +58,7 @@ function About() {
             </Card>
           </Col>
           <Col md={3} sm={6}>
-            <Card style={{ width: '18rem' }}>
+            <Card >
               <Card.Body>
                 <Card.Title>Defensa al Consumidor</Card.Title>
                 <Card.Text>
@@ -73,7 +73,7 @@ function About() {
             </Card>
           </Col>
           <Col md={3} sm={6}>
-            <Card style={{ width: '18rem' }}>
+            <Card >
               <Card.Body>
                 <Card.Title>Derecho Laboral</Card.Title>
                 <Card.Text>
@@ -89,7 +89,7 @@ function About() {
             </Card>
           </Col>
           <Col md={3} sm={6}>
-            <Card style={{ width: '18rem' }}>
+            <Card >
               <Card.Body>
                 <Card.Title>Sucesiones y Divorcios</Card.Title>
                 <Card.Text>
@@ -110,7 +110,7 @@ function About() {
         </Row>
         <Row className="about-expertise">
         <Col md={3} sm={6}>
-          <Card style={{ width: '18rem' }}>
+          <Card >
             <Card.Body>
               <Card.Title>Atencion a Pymes</Card.Title>
               <Card.Text>
@@ -127,7 +127,7 @@ function About() {
           </Card>
         </Col>
         <Col md={3} sm={6}>
-          <Card style={{ width: '18rem' }}>
+          <Card >
             <Card.Body>
               <Card.Title>Discapacidad y salud</Card.Title>
               <Card.Text>
@@ -149,7 +149,7 @@ function About() {
           </Card>
         </Col>
         <Col md={3} sm={6}>
-          <Card style={{ width: '18rem' }}>
+          <Card >
             <Card.Body>
               <Card.Title>Derecho Tributario</Card.Title>
               <Card.Text>
@@ -166,7 +166,7 @@ function About() {
           </Card>
         </Col>
         <Col md={3} sm={6}>
-          <Card style={{ width: '18rem' }}>
+          <Card >
             <Card.Body>
               <Card.Title>Accidentes de tránsito y ART</Card.Title>
               <Card.Text>
