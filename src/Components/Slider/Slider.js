@@ -16,8 +16,10 @@ function UncontrolledExample() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1>ESTUDIO JURÍDICO DE EXCELENCIA</h1>
-          <h3>Nulla vitae elit libero, a pharetra augue mollis interdum</h3>
+          <h1>ASESORAMIENTO JURÍDICO INTEGRAL</h1>  
+          <h3>
+            Asesoría y seguimiento de casos
+          </h3>
           <Button variant="warning slider-but">
             <LocalPhoneIcon />            
             Llámenos
@@ -32,8 +34,7 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h1>ESPECIALISTAS EN DIVORCIOS Y SUCESIONES</h1>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+          <h1>ESPECIALISTAS EN DERECHO PENAL</h1>
           <Button variant="warning slider-but">
             <EmailIcon />            
             Consultanos
@@ -48,9 +49,9 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h1>Asesoría y seguimiento de casos</h1>
+          <h1>Atendimento especial para brasileiros</h1>
           <h3>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur
+            na Argentina
           </h3>
           <Button variant="warning slider-but">
             <WhatsAppIcon />            
