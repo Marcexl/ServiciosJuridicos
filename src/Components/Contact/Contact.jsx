@@ -10,7 +10,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './contact.css';
 
 function Contact() {
-    const leng = props.title;
 
     const [validated, setValidated] = useState(false);
 
