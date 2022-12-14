@@ -77,7 +77,7 @@ function Contact() {
                     <Col md={6} className='pl-4'>
                         <h6>contactános</h6>
                         <address>
-                        Venezuela 1870. Buenos Aires. Argentina<br />
+                        Venezuela 1870. CABA. Argentina<br />
                         1800 1234 56789 / 98532100987<br />
                         <a href="mailto:consultas@serviciosjuridicos.ar">consultas@serviciosjuridicos.ar</a>
                         </address>

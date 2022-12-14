@@ -21,10 +21,11 @@ function About() {
           <Col md={8} sm={6}>
             <h3>Fabiano Perotto</h3>
               <h4>Antes que abogado soy un ser humano. Uno como vos que ha tenido muchas experiencias y problemas propios de una persona.</h4>
-              <p>Mi nombre es Fabiano Perotto, soy brasilero llegado a la Argentina a los 7 años. Papá de 3 hijos uno de los cuales es autista.<br />
+              <p>Mi nombre es Fabiano Perotto, soy brasilero llegado a la Argentina a los 7 años. Papá de 3 hijos uno de ellos es autista y tuve que asegurar sus derechos por medio de un amparo de salud.<br />
+              
               Soy docente pero también fui empleado y he tenido personal a cargo. Fui emprendedor, varias veces castigado por las crisis económicas, fui comerciante y ahora tengo el famoso monotributo.<br />
               Luego de haber vivido varias situaciones que, naturalmente podríamos pensar son injustas y cansado de no encontrar asesoramiento legal eficaz, decidí estudiar abogacía.<br />
-              Como abogado, mi vocación es brindar el mejor asesoramiento para las personas comunes, como vos y como yo. Por eso, si lo que buscas es un abogado que te atienda el teléfono, te trate de igual a igual, y busque la manera de resolver los problemas tuyos, de tu familia o de tu empresa, de forma práctica, hablando con honestidad, claridad y franqueza; aun a costa de no realizar el trabajo; acá lo vas a encontrar.</p>
+              Como abogado, mi vocación es brindar el mejor asesoramiento para las personas comunes, como vos y como yo. Por eso, si lo que buscas es un abogado que te atienda el teléfono, te trate de igual a igual, y busque la manera de resolver los problemas tuyos, de tu familia o de tu empresa, de forma práctica, hablando con honestidad, claridad y franqueza; aun a costa de no realizar el trabajo, si esa fuera la mejor solución; acá lo vas a encontrar.</p>
           </Col>
           <Col md={4}>
            <img src={require('./fabiano.jpeg')} alt='Fabiano Perotto' class="fabiano"/>
