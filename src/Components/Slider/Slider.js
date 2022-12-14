@@ -8,7 +8,7 @@ import './slider.css';
 
 function UncontrolledExample() {
   return (
-    <Carousel>
+    <Carousel id="top">
       <Carousel.Item>
         <img
           className="d-block"
@@ -20,10 +20,12 @@ function UncontrolledExample() {
           <h3>
             Asesoría y seguimiento de casos
           </h3>
-          <Button variant="warning slider-but">
-            <LocalPhoneIcon />            
-            Llámenos
-          </Button>
+          <a href="tel:5491165785785">
+            <Button variant="warning slider-but">
+              <LocalPhoneIcon />            
+              Llamanos
+            </Button>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,10 +37,12 @@ function UncontrolledExample() {
 
         <Carousel.Caption>
           <h1>ESPECIALISTAS EN DERECHO PENAL</h1>
-          <Button variant="warning slider-but">
-            <EmailIcon />            
-            Consultanos
-          </Button>
+          <a href="#contact">
+            <Button variant="warning slider-but">
+              <EmailIcon />            
+              Consultanos
+            </Button>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -53,10 +57,12 @@ function UncontrolledExample() {
           <h3>
             na Argentina
           </h3>
-          <Button variant="warning slider-but">
-            <WhatsAppIcon />            
-            Whatsapp
-          </Button>
+          <a href="https://wa.me/5491165785785?text=Hola%20me%20contacto%20desde%20la%20web">
+            <Button variant="warning slider-but">
+              <WhatsAppIcon />            
+              Whatsapp
+            </Button>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

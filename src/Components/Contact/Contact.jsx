@@ -78,7 +78,8 @@ function Contact() {
                         <h6>contactános</h6>
                         <address>
                         Venezuela 1870. CABA. Argentina<br />
-                        1800 1234 56789 / 98532100987<br />
+                        +5491165785785
+                        <br />
                         <a href="mailto:consultas@serviciosjuridicos.ar">consultas@serviciosjuridicos.ar</a>
                         </address>
                         <div className="social_icons">
