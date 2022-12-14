@@ -10,16 +10,40 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './contact.css';
 
 function Contact() {
+    const leng = props.title;
+
     const [validated, setValidated] = useState(false);
 
     const handleSubmit = (event) => {
       const form = event.currentTarget;
-      if (form.checkValidity() === false) {
+      if (form.checkValidity() === false) 
+      {
         event.preventDefault();
         event.stopPropagation();
       }
-  
-      setValidated(true);
+        event.preventDefault();
+        setValidated(true);
+
+        let name  = document.getElementById('name').value;
+        let fname = document.getElementById('fname').value;
+        let phone = document.getElementById('phone').value;
+        let email = document.getElementById('email').value;
+        let consulting = document.getElementById('consulting').value;
+        
+        const data = JSON.stringify({ name: name, fname: fname, phone: phone, email: email, consulting: consulting });
+        fetch('./Mail/mail.php', {
+            method: 'POST',
+            body: data
+            }).then((response) => {
+            if (response.ok) 
+            {
+                this.setState({ success: true });
+                console.log('sendit');
+            }else
+            {
+                console.log(response);
+            }
+        })  
     };
 
     return (
@@ -31,7 +55,7 @@ function Contact() {
                         
                         <h5 className='mb-5'>Envianos tus datos para contactarte</h5>
                         
-                        <Form.Group as={Col} md="6" controlId="validationCustom01" className='pr-2'>
+                        <Form.Group as={Col} md="6" controlId="name" className='pr-2'>
                             <Form.Control
                                 required
                                 type="text"
@@ -40,7 +64,7 @@ function Contact() {
                             />
                         </Form.Group>
                         
-                        <Form.Group as={Col} md="6" controlId="validationCustom02">
+                        <Form.Group as={Col} md="6" controlId="fname">
                             <Form.Control
                                 required
                                 type="text"
@@ -49,7 +73,7 @@ function Contact() {
                             />
                         </Form.Group>
 
-                        <Form.Group as={Col} md="6" controlId="validationCustom03" className='pr-2'>
+                        <Form.Group as={Col} md="6" controlId="email" className='pr-2'>
                             <Form.Control
                                 required
                                 type="email"
@@ -58,7 +82,7 @@ function Contact() {
                             />
                         </Form.Group>
 
-                        <Form.Group as={Col} md="6" controlId="validationCustom04">
+                        <Form.Group as={Col} md="6" controlId="phone">
                             <Form.Control
                                 required
                                 type="number"
@@ -67,7 +91,7 @@ function Contact() {
                             />
                         </Form.Group>
 
-                        <Form.Group as={Col} md="12" controlId="validationCustom05">
+                        <Form.Group as={Col} md="12" controlId="consulting">
                             <Form.Control as="textarea" aria-label="With textarea" placeholder="Resumen de la consulta"/>
                         </Form.Group>
                         
