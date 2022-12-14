@@ -18,10 +18,6 @@ function Contact() {
         event.preventDefault();
         event.stopPropagation();
       }
-      else
-      {
-
-      }
   
       setValidated(true);
     };

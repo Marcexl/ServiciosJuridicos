@@ -20,16 +20,11 @@ function About() {
         <Row>
           <Col md={8} sm={6}>
             <h3>Fabiano Perotto</h3>
-              <h4>Maecenas pretium enim ut mollis laoreet. Vestibulum aliquet ut nisi in <br />
-              porttitor. Donec luctus ipsum non dui aliquet, ac imperdiet arcu cursus. <br />
-              Morbi aliquam aculis ipsum malesuada et.</h4>
-              <p>Maecenas metus magna, condimentum eu elementum vitae, finibus eu mauris. Suspendisse bibendum 
-              dapibus lacus, eget commodo turpis hendrerit non. Cras euismod, nisi sit amet porta lobortis, 
-              purus augue bibendum augue, ut ornare elit risus ac enim.Aliquam pretium interdum lorem sit 
-              amet aliquam. Pellentesque quis felis orci. Integer fringilla.<br />
-              lorem non tincidunt commodo, eros erat interdum urna, sodales interdum nibh erat eget sapien. 
-              Vestibulum et erat ac eros pellentesque pulvinar. Cras viverra vel sapien et molestie. Cras euismod, 
-              nisi sit amet porta lobortis, purus augue bibendum augue, </p>
+              <h4>Antes que abogado soy un ser humano. Uno como vos que ha tenido muchas experiencias y problemas propios de una persona.</h4>
+              <p>Mi nombre es Fabiano Perotto, soy brasilero llegado a la Argentina a los 7 años. Papá de 3 hijos uno de los cuales es autista.<br />
+              Soy docente pero también fui empleado y he tenido personal a cargo. Fui emprendedor, varias veces castigado por las crisis económicas, fui comerciante y ahora tengo el famoso monotributo.<br />
+              Luego de haber vivido varias situaciones que, naturalmente podríamos pensar son injustas y cansado de no encontrar asesoramiento legal eficaz, decidí estudiar abogacía.<br />
+              Como abogado, mi vocación es brindar el mejor asesoramiento para las personas comunes, como vos y como yo. Por eso, si lo que buscas es un abogado que te atienda el teléfono, te trate de igual a igual, y busque la manera de resolver los problemas tuyos, de tu familia o de tu empresa, de forma práctica, hablando con honestidad, claridad y franqueza; aun a costa de no realizar el trabajo; acá lo vas a encontrar.</p>
           </Col>
           <Col md={4}>
            <img src={require('./fabiano.jpeg')} alt='Fabiano Perotto' class="fabiano"/>

@@ -98,6 +98,10 @@
     box-shadow: 0px 0px 10px 5px rgb(255 193 7 / 5%);
 }
 
+.card-title{
+    padding-left: 20px;
+}
+
 .fabiano{
     width: 100%;
     filter: grayscale(1);
