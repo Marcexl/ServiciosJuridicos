@@ -7,6 +7,7 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import WhatsApp from './Components/WhatsApp/WhatsApp';
+import Recaptcha from './Components/RecaptchaV3/Recaptcha';
 import './index.css';
 import './responsive.css';
 
@@ -19,6 +20,7 @@ root.render(
     <Contact />
     <WhatsApp />
     <Footer />
+    <Recaptcha />
     </>
 );
 
