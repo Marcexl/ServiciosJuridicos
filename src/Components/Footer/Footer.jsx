@@ -29,7 +29,7 @@ function Footer() {
                         </ul>
                     </Col>
                     <Col md={3} sm={3}>
-                        <ul class="socil-icon-one">
+                        <ul className="socil-icon-one">
                             <li><a href="#terms" title="Terms">Terminos y condiciones</a></li>
                             <li><a href="#prices" title="Prices">Modos de Pago</a></li>
                             <li><a href="#privacy" title="Privacy">Privacidad</a></li>

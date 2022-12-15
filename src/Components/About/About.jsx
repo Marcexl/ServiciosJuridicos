@@ -28,7 +28,7 @@ function About() {
               Como abogado, mi vocación es brindar el mejor asesoramiento para las personas comunes, como vos y como yo. Por eso, si lo que buscas es un abogado que te atienda el teléfono, te trate de igual a igual, y busque la manera de resolver los problemas tuyos, de tu familia o de tu empresa, de forma práctica, hablando con honestidad, claridad y franqueza; aun a costa de no realizar el trabajo, si esa fuera la mejor solución; acá lo vas a encontrar.</p>
           </Col>
           <Col md={4}>
-           <img src={require('./fabiano.jpeg')} alt='Fabiano Perotto' class="fabiano"/>
+           <img src={require('./fabiano.jpeg')} alt='Fabiano Perotto' className="fabiano"/>
           </Col>
         </Row>
       </Container>
@@ -59,10 +59,10 @@ function About() {
                 <Card.Title>Defensa al Consumidor</Card.Title>
                 <Card.Text>
                   <ul>
-                  <li>Acompañamiento en mediaciones COPREC</li>
-                  <li>Redacción de denuncias administrativas</li>
-                  <li>Problemas con plan de autoahorro</li>
-                  <li>Reclamos por servicios o productos (Internet, Productos en mal estado, etc.)</li>
+                    <li>Acompañamiento en mediaciones COPREC</li>
+                    <li>Redacción de denuncias administrativas</li>
+                    <li>Problemas con plan de autoahorro</li>
+                    <li>Reclamos por servicios o productos (Internet, Productos en mal estado, etc.)</li>
                   </ul>
                 </Card.Text>
               </Card.Body>
@@ -73,12 +73,12 @@ function About() {
               <Card.Body>
                 <Card.Title>Derecho Laboral</Card.Title>
                 <Card.Text>
-                <ul>
-                  <li>Despidos</li>
-                  <li>Trabajo en negro</li>
-                  <li>Jubilación</li>
-                  <li>Sanciones disciplinarias</li>
-                  <li>Maltrato</li>
+                  <ul>
+                    <li>Despidos</li>
+                    <li>Trabajo en negro</li>
+                    <li>Jubilación</li>
+                    <li>Sanciones disciplinarias</li>
+                    <li>Maltrato</li>
                   </ul>
                 </Card.Text>
               </Card.Body>
@@ -171,7 +171,6 @@ function About() {
                   <li>Cobro por lesiones o siniestros que sufriste vos o los tuyos en el menor tiempo posible</li>
                   <li>Nos encargamos de todo el tramite en tu aseguradora y en la de terceros</li>
                 </ul>
-               
               </Card.Text>
             </Card.Body>
           </Card>

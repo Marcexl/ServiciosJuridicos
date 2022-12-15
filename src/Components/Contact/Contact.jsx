@@ -50,10 +50,8 @@ function Contact() {
             <Container className='contact-container'>
                 <Row>
                     <Col md={6} className='contact-container-form'>
-                        <Form noValidate validated={validated} onSubmit={handleSubmit}>
-                        
+                        <Form noValidate validated={validated} onSubmit={handleSubmit}>                        
                         <h5 className='mb-5'>Envianos tus datos para contactarte</h5>
-                        
                         <Form.Group as={Col} md="6" controlId="name" className='pr-2'>
                             <Form.Control
                                 required
@@ -94,7 +92,9 @@ function Contact() {
                             <Form.Control as="textarea" aria-label="With textarea" placeholder="Resumen de la consulta"/>
                         </Form.Group>
                         
-                        <Button type="submit">Enviar</Button>
+                            <Button type="submit">Enviar</Button>
+                            <div className="g-recaptcha" data-sitekey="6LfT9H4jAAAAACbAj68p2FIsIQX42KfbzBANyuNJ"></div>
+
                         </Form>
                     </Col>
                     <Col md={6} className='pl-4'>
