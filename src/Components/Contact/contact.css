@@ -121,3 +121,7 @@
 .social_icons a:hover{
     color: rgb(62, 62, 62);
 }
+
+.g-recaptcha{
+    margin-top: 30px;
+}
