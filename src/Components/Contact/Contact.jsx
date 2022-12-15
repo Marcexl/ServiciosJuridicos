@@ -7,6 +7,7 @@ import Form from 'react-bootstrap/Form';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Alert from 'react-bootstrap/Alert';
 import './contact.css';
 
 function Contact() {
@@ -20,6 +21,8 @@ function Contact() {
         event.preventDefault();
         event.stopPropagation();
       }
+      else
+      {
         event.preventDefault();
         setValidated(true);
 
@@ -36,13 +39,21 @@ function Contact() {
             }).then((response) => {
             if (response.ok) 
             {
-                this.setState({ success: true });
-                console.log('sendit');
+                let msj = document.getElementById("success");
+                msj.style.display = 'block';
+
+                setTimeout(function(){
+                    document.getElementById("contactform").reset();
+                    msj.style.display = 'none';
+                },500);
             }else
             {
+                let msj = document.getElementById("danger");
+                msj.style.display = 'block';
                 console.log(response);
             }
         })  
+      }
     };
 
     return (
@@ -50,7 +61,7 @@ function Contact() {
             <Container className='contact-container'>
                 <Row>
                     <Col md={6} className='contact-container-form'>
-                        <Form noValidate validated={validated} onSubmit={handleSubmit}>                        
+                        <Form noValidate validated={validated} onSubmit={handleSubmit} id="contactform">                        
                         <h5 className='mb-5'>Envianos tus datos para contactarte</h5>
                         <Form.Group as={Col} md="6" controlId="name" className='pr-2'>
                             <Form.Control
@@ -118,6 +129,8 @@ function Contact() {
                         </div>
                     </Col>
                 </Row>
+                <Alert variant="success" id="success">Gracias por enviarnos tu consulta. Nos comunicaremos a la brevedad.</Alert>
+                <Alert variant="danger" id="danger">Ha ocurrido un error. Por favor, intente mas tarde.</Alert>
             </Container>
         </Container>
     );
